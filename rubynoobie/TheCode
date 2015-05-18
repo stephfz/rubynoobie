@@ -1,0 +1,44 @@
+
+
+#Ejecutar un archivo de codigo
+ruby inventario.rb
+
+# 1. Numeros
+3 + 6
+Math.sqrt(25)
+
+# Texto
+"Stephanie"
+"Stephanie" + "Frias"
+puts nombre
+
+# Coleccion de Datos : Arrays
+["azul", "rojo", "negro"]
+
+#Variables
+colores = ["azul", "rojo", "negro"]
+mivariable = 3
+puts mivariable
+mivariable = "Hola"
+puts mivariable
+mivariable = ["estamos, "en", "la", "witmeetup"]
+puts mivariable
+
+#Objetos
+mivariable.methods
+5.methods
+nombre = "Stephanie"
+nombre.methods
+nombre.reverse
+
+
+#Putting Together
+File.open('notas.txt')
+contenido = File.open('notas.txt').readlines
+puts contenido
+puts contenido[2]
+##iteradores
+contenido.each |linea|
+puts linea
+end
+##guardan en archivo
