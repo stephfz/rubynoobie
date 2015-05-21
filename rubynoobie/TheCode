@@ -12,10 +12,10 @@ Math.sqrt(25)
 "Stephanie" + "Frias"
 puts nombre
 
-# Coleccion de Datos : Arrays
-["azul", "rojo", "negro"]
 
 #Variables
+# Coleccion de Datos : Arrays
+["azul", "rojo", "negro"]
 colores = ["azul", "rojo", "negro"]
 mivariable = 3
 puts mivariable
@@ -33,8 +33,8 @@ nombre.reverse
 
 
 #Putting Together
-File.open('notas.txt')
-contenido = File.open('notas.txt').readlines
+File.open('listav1.txt')
+contenido = File.open('listav1.txt').readlines
 puts contenido
 puts contenido[2]
 ##iteradores
@@ -42,3 +42,20 @@ contenido.each |linea|
 puts linea
 end
 ##guardan en archivo
+
+#La clase Dir
+http://ruby-doc.org/core-2.2.0/Dir.html
+Dir.glob('**/*')
+Dir.glob('**/*').each {|file| put file}
+
+#wrap it out
+
+class Unicornio
+
+	def initialize(nombre)
+		@nombre = nombre
+	end
+
+	def 
+end
+
